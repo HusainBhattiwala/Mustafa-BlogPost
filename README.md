@@ -16,7 +16,7 @@ This project is a blog application that includes features like displaying a list
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://<your-bitbucket-username>@bitbucket.org/<your-bitbucket-username>/backend-assignment.git
+git clone https://github.com/MustafaAliAkbar/Mustafa-BlogPost.git
 ```
 
 ### 2. Set Up the Backend

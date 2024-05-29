@@ -39,6 +39,7 @@ app.get('/api/blogs', (req, res) => {
         totalPages,
         blogs: paginatedBlogs
     });
+    
 });
 
 // Endpoint to fetch a blog post by ID

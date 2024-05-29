@@ -24,7 +24,6 @@ export default function Blogs() {
     };
 
     return (
-        <Layout>
             <div className="w-full max-w-4xl mx-auto py-8">
                 <h2 className="text-3xl font-bold mb-4 text-center">Our Blogs</h2>
                 <SearchBar onSearch={handleSearch} />
@@ -66,6 +65,5 @@ export default function Blogs() {
                 </div>
 
             </div>
-        </Layout>
     );
 }

@@ -63,7 +63,7 @@ export default function Home() {
 
       <div className='w-full h-[650px]'>
         <div className='mirrored-background flex items-start justify-between px-20 relative'>
-          <div className='max-w-screen-xl mx-auto px-4 py-4 flex space-x-24 absolute top-[-140px] left-[140px]'>
+          <div className='max-w-screen-xl mx-auto px-4 py-4 flex space-x-24 absolute top-[-130px] left-[140px]'>
             <div className='text-white'>
               <h1 className='text-5xl font-bold'>Premium Chauffeur Service</h1>
               <p className='text-md font-normal text-slate-100/80'>
@@ -71,21 +71,21 @@ export default function Home() {
               </p>
             </div>
 
-            <div className='flex justify-center py-4 mt-8'>
+            <div className='flex justify-center py-4 mt-4'>
               <div
                 className='py-8 px-5 rounded-[20px] shadow-lg w-[450px] backdrop-blur-md border border-slate-700'
                 style={{
-                  backgroundColor: "rgba(31, 41, 55, 0.5)",
+                  backgroundColor: "rgba(18, 25, 33, 0.8)",
                 }}
               >
-                <div className='flex space-x-4 mb-6 w-full'>
+                <div className='flex space-x-4 mb-4 w-full'>
                   <button className='flex-grow flex items-center justify-center text-white py-2 px-4 rounded-full bg-[#223544] border border-[#ccc]'>
                     <img
                       src='images/icons/transfer.png'
                       alt='Transfer Icon'
                       className='w-4 h-4 mr-2'
                     />
-                    Transfer
+                    <text>Transfer</text>
                   </button>
                   <button
                     className='flex-grow flex items-center justify-center py-2 px-4 rounded-full'
@@ -104,9 +104,9 @@ export default function Home() {
                   </button>
                 </div>
 
-                <div className='grid grid-cols-1 gap-1 mb-4 relative'>
+                <div className='grid grid-cols-1 gap-1 mb-2 relative'>
                   <label htmlFor='pickup-location' className='w-full'>
-                    Pick Up
+                    <span className='text-sm'>Pick Up</span>
                   </label>
                   <div className='relative w-full'>
                     <input
@@ -131,9 +131,9 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className='grid grid-cols-1 gap-1 mb-4 relative'>
+                <div className='grid grid-cols-1 gap-1 mb-2 relative'>
                   <label htmlFor='drop-location' className='w-full'>
-                    Drop Off
+                    <span className='text-sm'>Drop Off</span>
                   </label>
                   <div className='relative w-full'>
                     <input
@@ -169,10 +169,10 @@ export default function Home() {
                   </button>
                 </div>
 
-                <div className='flex justify-between gap-4 mb-4'>
-                  <div className='grid grid-cols-1 gap-1 mb-4 relative'>
+                <div className='flex justify-between gap-4 mb-2 relative'>
+                  <div className='grid grid-cols-1 gap-1 mb-2 relative'>
                     <label htmlFor='pickup-date' className='w-full'>
-                      Date
+                      <span className='text-sm'>Date</span>
                     </label>
                     <div className='relative w-full'>
                       <input
@@ -190,9 +190,9 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className='grid grid-cols-1 gap-1 mb-4 relative'>
-                    <label htmlFor='pickup-time' className='w-full'>
-                      Time
+                  <div className='grid grid-cols-1 gap-1 mb-2 relative'>
+                    <label htmlFor='pickup-time' className='w-full text-sm mb-1'>
+                      <span className='text-sm'>Time</span>
                     </label>
                     <div className='relative w-full'>
                       <input
@@ -235,7 +235,7 @@ export default function Home() {
                 </div>
 
                 <button
-                  className='text-white py-2 px-8 rounded-lg w-full'
+                  className='text-white text-xl py-3 px-8 rounded-lg w-full'
                   style={{ backgroundColor: "#EC5C29" }}
                 >
                   Search Ride
@@ -244,7 +244,7 @@ export default function Home() {
             </div>
           </div>
           {/* TODO: style below div */}
-          <div className='absolute bottom-60 mb-10'>
+          <div className='absolute mx-auto bottom-80 mb-10'>
             <p>Do you want to customise your booking?</p>
             <p>
               We offer customised bookings for any location, from bulk or
@@ -255,15 +255,16 @@ export default function Home() {
                 <p>Contact us now</p>
               </div>
               <div className='flex space-x-2'>
-                <p>+44 (0) 207 112 8101</p>
-                <p>booking@roldrive.com</p>
+                <p style={{ color: "#FDC65C" }}>+44 (0) 207 112 8101</p>
+                <p style={{ color: "#FDC65C" }}>booking@roldrive.com</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
       {/* set gradient accordingly below */}
-      <div className='w-full h-20 bg-[#171f26c7] absolute -bottom-[200px] z-[-1]'></div>
+      <div class="w-full h-20 bg-gradient-to-b from-transparent to-[#223544] absolute -bottom-[200px] z-[-1]"></div>
 
       <div
         className='relative bg-no-repeat bg-center'

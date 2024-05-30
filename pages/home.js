@@ -191,7 +191,10 @@ export default function Home() {
                   </div>
 
                   <div className='grid grid-cols-1 gap-1 mb-2 relative'>
-                    <label htmlFor='pickup-time' className='w-full text-sm mb-1'>
+                    <label
+                      htmlFor='pickup-time'
+                      className='w-full text-sm mb-1'
+                    >
                       <span className='text-sm'>Time</span>
                     </label>
                     <div className='relative w-full'>
@@ -244,7 +247,7 @@ export default function Home() {
             </div>
           </div>
           {/* TODO: style below div */}
-          <div className='absolute mx-auto bottom-80 mb-10'>
+          <div className='absolute mx-auto bottom-80 mb-10 z-[5]'>
             <p>Do you want to customise your booking?</p>
             <p>
               We offer customised bookings for any location, from bulk or
@@ -262,9 +265,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       {/* set gradient accordingly below */}
-      <div class="w-full h-20 bg-gradient-to-b from-transparent to-[#223544] absolute -bottom-[200px] z-[-1]"></div>
+      <div className='w-full h-[6rem] absolute -bottom-[114px] z-[1] bg-gradient-to-t from-[#05141e]'></div>
+      <div className='w-full h-16 absolute -bottom-[178px] z-[-1] bg-[#05141e]'></div>
 
       <div
         className='relative bg-no-repeat bg-center'

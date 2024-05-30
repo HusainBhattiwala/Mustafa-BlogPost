@@ -52,7 +52,7 @@ export default function Home() {
                                 <div className="relative w-full">
                                     <input type="text" id="pickup-location" placeholder="Enter pick up location" className="text-white py-2 px-4 rounded-lg w-full pl-10 pr-10" style={{ backgroundColor: '#223544', border: '1px solid #ccc' }} />
                                     <img src="images/icons/pick_drop.png" alt="Icon" className="absolute left-3 top-1/2 transform -translate-y-1/2" style={{ height: '20px', width: '20px' }} />
-                                    <img src="images/icons/equals.png" alt="Icon" className="absolute right-3 top-1/2 transform -translate-y-1/2" style={{ height: '2px', width: '3px', color: '#828282' }} />
+                                    <img src="images/icons/equals.png" alt="Icon" className="absolute right-3 top-1/2 transform -translate-y-1/2" style={{ height: '6px', width: '12px', color: '#828282' }} />
                                 </div>
                             </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
                                 <div className="relative w-full">
                                     <input type="text" id="drop-location" placeholder="Enter drop off location" className="text-white py-2 px-4 rounded-lg w-full pl-10 pr-10" style={{ backgroundColor: '#223544', border: '1px solid #ccc' }} />
                                     <img src="images/icons/pick_drop.png" alt="Icon" className="absolute left-3 top-1/2 transform -translate-y-1/2" style={{ height: '20px', width: '20px' }} />
-                                    <img src="images/icons/equals.png" alt="Icon" className="absolute right-3 top-1/2 transform -translate-y-1/2" style={{ height: '2px', width: '3px', color: '#828282' }} />
+                                    <img src="images/icons/equals.png" alt="Icon" className="absolute right-3 top-1/2 transform -translate-y-1/2" style={{ height: '6px', width: '12px', color: '#828282' }} />
                                 </div>
                                 <button className="flex-grow flex items-center" style={{ color: '#FDC65C' }}>
                                     <img src="images/icons/stop.png" alt="Stop Icon" className="w-4 h-4 mr-2" />
